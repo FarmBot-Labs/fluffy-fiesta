@@ -60,19 +60,19 @@ Details TBD.
 
 | Operation                   | Uploads blobs?   | Downloads blobs? | Uploads CS?      |
 |-----------------------------|------------------|------------------|------------------|
-|Create Resource              |:heavy_check_mark:|:heavy_check_mark:|:question_mark:   |
-|Read Resource                |:question_mark:   |:heavy_check_mark:|:question_mark:   |
-|List Resources               |:question_mark:   |:heavy_check_mark:|:question_mark:   |
-|Update Resource              |:question_mark:   |:heavy_check_mark:|:question_mark:   |
-|Destroy Resource             |:question_mark:   |:question_mark:   |:question_mark:   |
-|Photo creation               |:heavy_check_mark:|:question_mark:   |:question_mark:   |
-|change_ownership             |:question_mark:   |:question_mark:   |:question_mark:   |
-|check_updates                |:question_mark:   |:question_mark:   |:question_mark:   |
-|dump_info                    |:question_mark:   |:question_mark:   |:question_mark:   |
-|register_gpio                |:question_mark:   |:question_mark:   |:question_mark:   |
-|sync                         |:question_mark:   |:question_mark:   |:question_mark:   |
-|unregister_gpio              |:question_mark:   |:question_mark:   |:question_mark:   |
-|read_status                  |:question_mark:   |:question_mark:   |:question_mark:   |
+|Create Resource              |:heavy_check_mark:|:heavy_check_mark:|:question:        |
+|Read Resource                |:question:        |:heavy_check_mark:|:question:        |
+|List Resources               |:question:        |:heavy_check_mark:|:question:        |
+|Update Resource              |:question:        |:heavy_check_mark:|:question:        |
+|Destroy Resource             |:question:        |:question:        |:question:        |
+|Photo creation               |:heavy_check_mark:|:question:        |:question:        |
+|change_ownership             |:question:        |:question:        |:question:        |
+|check_updates                |:question:        |:question:        |:question:        |
+|dump_info                    |:question:        |:question:        |:question:        |
+|register_gpio                |:question:        |:question:        |:question:        |
+|sync                         |:question:        |:question:        |:question:        |
+|unregister_gpio              |:question:        |:question:        |:question:        |
+|read_status                  |:question:        |:question:        |:question:        |
 |calibrate                    |:x:               |:x:               |:heavy_check_mark:|
 |config_update                |:x:               |:x:               |:heavy_check_mark:|
 |emergency_lock               |:x:               |:x:               |:heavy_check_mark:|
