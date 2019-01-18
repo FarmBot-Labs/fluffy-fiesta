@@ -22,12 +22,12 @@ be found at [https://hexdocs.pm/f](https://hexdocs.pm/f).
 
 ## RPC SPEC
 
-| Paramater name | size/format  | Description                          |
-|:--------------:|:------------:|:------------------------------------:|
-| Magic token    | 2 bytes      | always `0xFBFB`                      |
-| RESERVED       | 4 bytes      | always 4 bytes of 0x00               |
-| Payload size   | 4 bytes      | big endian integer                   |
-| Payload        | `size` bytes | any ole data of exactly `size` bytes |
+| Paramater name | size/format    | Description                          |
+|:--------------:|:--------------:|:------------------------------------:|
+| Magic token    | 2 bytes        | always `0xFBFB`                      |
+| RESERVED       | 4 bytes signed | always 4 bytes of 0x00               |
+| Payload size   | 4 bytes signed | big endian integer                   |
+| Payload        | `size` bytes   | any ole data of exactly `size` bytes |
 
 62694012-0159-4faf-bbfa-47107aab9bc9-request.fb
 62694012-0159-4faf-bbfa-47107aab9bc9-response.fb
